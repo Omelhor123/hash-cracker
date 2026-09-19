@@ -15,6 +15,13 @@ Do not use this tool against systems or data you don't have explicit permission 
 - Measures execution time
 - Handles errors (missing file, invalid algorithm)
 
+## What I learned
+
+Building this project helped me understand how password hashing works, 
+the difference between dictionary attacks and brute-force approaches, 
+and why algorithms like MD5 and SHA-1 are considered insecure for 
+storing passwords compared to bcrypt or Argon2.
+
 ## Requirements
 
 - Python 3.8 or higher
