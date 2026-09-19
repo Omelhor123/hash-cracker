@@ -1,0 +1,21 @@
+# Ambientes virtuais
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Wordlists
+rockyou.00.txt
+*.txt
+!requirements.txt
+
+# Ficheiros de configuração de IDEs
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
