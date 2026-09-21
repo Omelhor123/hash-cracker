@@ -24,7 +24,7 @@ storing passwords compared to bcrypt or Argon2.
 
 ## Requirements
 
-- Python 3.8 or higher
+- Python 3.11 or higher (you should not have problems using a stable version of python)
 - No external dependencies (uses only the Python standard library)
 
 ## Installation
@@ -62,14 +62,10 @@ Execution time: 0.03 seconds
 ## Wordlist
 
 This project was tested using the **rockyou.00.txt** wordlist, a well-known list widely used in offensive security.
-You can download it [here](https://github.com/danielmiessler/SecLists) (not included in this repository due to its size).
+You can download it [here](https://github.com/zacheller/rockyou) (not included in this repository due to its size).
 
 ## Future improvements
 
 - [ ] Add brute-force attack support
 - [ ] Add multithreading to speed up processing on large wordlists
 - [ ] Auto-detect the hashing algorithm based on hash length
-
-## License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
