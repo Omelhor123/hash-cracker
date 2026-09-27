@@ -61,7 +61,7 @@ Execution time: 0.03 seconds
 
 ## Wordlist
 
-This project was tested using the **rockyou.00.txt** wordlist, a well-known list widely used in offensive security.
+This project was tested using the **rockyou.txt** wordlist, a well-known list widely used in offensive security.
 You can download it [here](https://github.com/zacheller/rockyou) (not included in this repository due to its size).
 
 ## Future improvements
